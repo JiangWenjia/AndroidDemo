@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性和名称-->
+    <attr name="titleText" format="string"/>
+    <attr name="titleColor" format="color"/>
+    <attr name="titleSize" format="dimension"/>
+    <!--public TypedArray obtainStyledAttributes (AttributeSet set, int[] attrs, int defStyleAttr, int defStyleRes)
+      defStyleAttr=R.styleable.mTitle
+    -->
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <declare-styleable name="mTitle">
+        <attr name="titleText"/>
+        <attr name="titleColor"/>
+        <attr name="titleSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="mImage">
+        <attr name="titleText"/>
+        <attr name="titleColor"/>
+        <attr name="titleSize"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+
+       <attr name="firstColor" format="color" />
+       <attr name="secondColor" format="color" />
+       <attr name="circleWidth" format="dimension" />
+       <attr name="speed" format="integer" />
+
+       <declare-styleable name="CustomProgressBar">
+          <attr name="firstColor" />
+          <attr name="secondColor" />
+          <attr name="circleWidth" />
+          <attr name="speed" />
+      </declare-styleable>
+
+
+
+
+</resources>
